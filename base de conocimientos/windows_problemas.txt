@@ -1,0 +1,49 @@
+SOLUCIÓN DE PROBLEMAS COMUNES EN SISTEMAS WINDOWS
+
+1. COMPUTADOR LENTO AL INICIAR
+Cuando un computador tarda demasiado en arrancar, la causa principal suele ser la ejecución simultánea de múltiples programas configurados en el inicio automático. También puede deberse a acumulación de archivos temporales, fragmentación del disco, actualizaciones pendientes o presencia de software malicioso.
+
+Pasos de solución:
+- Abrir el Administrador de tareas.
+- Seleccionar la pestaña Inicio.
+- Deshabilitar programas innecesarios.
+- Ejecutar liberador de espacio en disco.
+- Revisar actualizaciones de Windows.
+- Ejecutar análisis antivirus.
+
+2. PANTALLA CONGELADA O BLOQUEOS FRECUENTES
+Los bloqueos del sistema pueden producirse por sobrecarga de memoria RAM, controladores dañados o conflictos de software.
+
+Pasos de solución:
+- Reiniciar el equipo.
+- Verificar uso de memoria desde el Administrador de tareas.
+- Actualizar controladores.
+- Desinstalar programas recientes.
+- Ejecutar diagnóstico de memoria.
+
+3. ERROR DE PANTALLA AZUL
+La pantalla azul suele indicar fallas críticas de hardware, errores de controladores o archivos del sistema corruptos.
+
+Pasos de solución:
+- Reiniciar en modo seguro.
+- Ejecutar comando sfc /scannow.
+- Revisar disco con chkdsk.
+- Actualizar drivers.
+- Revisar memoria RAM.
+
+4. DISCO DURO LLENO
+Cuando el disco está por encima del 85% de uso, el sistema reduce notablemente su rendimiento.
+
+Pasos de solución:
+- Eliminar archivos temporales.
+- Vaciar papelera.
+- Desinstalar software no utilizado.
+- Mover archivos pesados a almacenamiento externo.
+
+5. ACTUALIZACIONES FALLIDAS
+Las actualizaciones fallidas generan lentitud y errores del sistema.
+
+Pasos de solución:
+- Reiniciar servicio Windows Update.
+- Limpiar caché de actualizaciones.
+- Verificar conexión a internet.

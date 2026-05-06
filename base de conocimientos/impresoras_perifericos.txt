@@ -1,0 +1,26 @@
+SOLUCIÓN DE PROBLEMAS DE IMPRESORAS Y PERIFÉRICOS
+
+1. IMPRESORA NO IMPRIME
+Las causas más comunes son cola de impresión atascada, drivers dañados o impresora fuera de línea.
+
+Pasos:
+- Verificar encendido.
+- Revisar conexión USB o WiFi.
+- Cancelar cola de impresión.
+- Reiniciar servicio de impresión.
+- Reinstalar drivers.
+
+2. PAPEL ATASCADO
+- Apagar impresora.
+- Retirar papel cuidadosamente.
+- Revisar rodillos.
+
+3. CARTUCHO NO DETECTADO
+- Retirar cartucho.
+- Limpiar contactos.
+- Reinstalar cartucho.
+
+4. USB NO RECONOCIDO
+- Cambiar puerto USB.
+- Probar otro cable.
+- Actualizar controladores USB.
