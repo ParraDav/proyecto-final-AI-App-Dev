@@ -1,0 +1,62 @@
+SOLUCIÓN DE PROBLEMAS COMUNES EN SISTEMAS OPERATIVOS WINDOWS
+
+1. COMPUTADOR LENTO AL INICIAR
+
+Uno de los problemas más frecuentes en computadores con sistema operativo Windows es la lentitud excesiva durante el arranque. Este comportamiento suele presentarse cuando existen demasiados programas configurados para ejecutarse automáticamente al iniciar sesión, cuando el disco duro tiene poco espacio libre, cuando existen archivos temporales acumulados o cuando el sistema presenta actualizaciones pendientes sin instalar. También puede ser causado por malware o procesos de antivirus en segundo plano.
+
+Procedimiento de solución:
+- Abrir el Administrador de tareas utilizando Ctrl + Shift + Esc.
+- Seleccionar la pestaña Inicio.
+- Identificar aplicaciones innecesarias con alto impacto y deshabilitarlas.
+- Ejecutar el liberador de espacio en disco.
+- Eliminar archivos temporales del sistema.
+- Verificar si existen actualizaciones pendientes.
+- Reiniciar el equipo después de aplicar cambios.
+- Ejecutar un análisis antivirus completo.
+
+2. PANTALLA CONGELADA O SISTEMA BLOQUEADO
+
+Cuando el sistema deja de responder o la pantalla se congela, la causa puede estar asociada a saturación de memoria RAM, sobrecarga del procesador, controladores desactualizados o conflictos entre programas instalados recientemente. También puede ocurrir por fallos del disco.
+
+Pasos de solución:
+- Esperar algunos segundos para verificar si el sistema responde.
+- Abrir Administrador de tareas y finalizar procesos con consumo excesivo.
+- Reiniciar el computador.
+- Actualizar drivers de video, chipset y almacenamiento.
+- Desinstalar software recientemente agregado.
+- Verificar estado del disco duro.
+- Ejecutar diagnóstico de memoria RAM.
+
+3. ERRORES DE PANTALLA AZUL
+
+La pantalla azul de Windows representa una detención crítica del sistema. Generalmente ocurre por errores de controladores, archivos del sistema dañados, módulos de memoria defectuosos o conflictos con actualizaciones.
+
+Pasos recomendados:
+- Reiniciar en modo seguro.
+- Ejecutar el comando sfc /scannow.
+- Ejecutar chkdsk /f /r.
+- Actualizar controladores desde Administrador de dispositivos.
+- Revisar RAM con diagnóstico de memoria.
+- Desinstalar actualizaciones recientes si el problema comenzó después de una actualización.
+
+4. DISCO DURO LLENO O RENDIMIENTO BAJO
+
+Un disco duro con más del 85 por ciento de ocupación puede generar lentitud general, fallos al abrir programas y retrasos en el sistema.
+
+Pasos:
+- Vaciar papelera de reciclaje.
+- Eliminar archivos temporales con %temp%.
+- Desinstalar programas no utilizados.
+- Mover archivos multimedia pesados a otro almacenamiento.
+- Ejecutar desfragmentación si se trata de HDD.
+
+5. ACTUALIZACIONES FALLIDAS DE WINDOWS
+
+Cuando Windows no logra instalar actualizaciones puede producir errores de seguridad, reinicios repetitivos y funcionamiento inestable.
+
+Pasos:
+- Reiniciar el servicio Windows Update.
+- Verificar espacio libre.
+- Comprobar estabilidad de internet.
+- Limpiar caché de actualizaciones.
+- Reintentar instalación manual.

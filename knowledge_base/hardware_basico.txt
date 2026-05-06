@@ -1,0 +1,52 @@
+DIAGNÓSTICO DE HARDWARE BÁSICO EN COMPUTADORES
+
+1. EQUIPO SE SOBRECALIENTA
+
+El sobrecalentamiento ocurre cuando la ventilación interna es insuficiente, existe acumulación de polvo o el ventilador presenta desgaste. Esto ocasiona apagados repentinos, lentitud y reinicios.
+
+Pasos:
+- apagar equipo,
+- limpiar ventiladores,
+- revisar salidas de aire,
+- comprobar funcionamiento del cooler,
+- reemplazar pasta térmica si es necesario.
+
+2. BATERÍA NO CARGA
+
+Las laptops pueden presentar fallas por cargador dañado, conector flojo o batería degradada.
+
+Pasos:
+- revisar adaptador de corriente,
+- probar otro enchufe,
+- comprobar LED de carga,
+- retirar batería si es extraíble y volver a conectar.
+
+3. DISCO DURO CON RUIDOS O FALLAS
+
+Ruidos repetitivos indican daño mecánico en HDD. También puede haber sectores defectuosos.
+
+Pasos:
+- respaldar información inmediatamente,
+- ejecutar diagnóstico SMART,
+- comprobar velocidad de lectura,
+- considerar reemplazo.
+
+4. MEMORIA RAM DEFECTUOSA
+
+Una RAM dañada genera pantallas azules, bloqueos y reinicios.
+
+Pasos:
+- apagar equipo,
+- retirar módulos,
+- limpiar contactos,
+- probar uno por uno,
+- ejecutar diagnóstico de memoria.
+
+5. PUERTOS FÍSICOS DAÑADOS
+
+USB, HDMI o audio pueden fallar por suciedad o daño interno.
+
+Pasos:
+- inspeccionar visualmente,
+- probar otro dispositivo,
+- actualizar drivers asociados.

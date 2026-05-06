@@ -1,0 +1,53 @@
+SOLUCIÓN DE PROBLEMAS DE IMPRESORAS Y PERIFÉRICOS
+
+1. IMPRESORA NO IMPRIME
+
+Cuando una impresora no responde, las causas más comunes son estado offline, cola de impresión detenida, controlador dañado o mala conexión física.
+
+Pasos:
+- Verificar encendido de la impresora.
+- Revisar cable USB o conexión WiFi.
+- Confirmar que esté configurada como predeterminada.
+- Abrir cola de impresión y cancelar documentos pendientes.
+- Reiniciar el servicio spooler de impresión.
+- Reinstalar drivers de la impresora.
+- Reiniciar computador e impresora.
+
+2. IMPRESORA APARECE OFFLINE
+
+Si Windows muestra la impresora como fuera de línea puede existir una desconexión lógica.
+
+Pasos:
+- eliminar estado offline desde dispositivos e impresoras,
+- verificar red,
+- reinstalar impresora.
+
+3. PAPEL ATASCADO
+
+El atasco se produce por mala alineación, hojas húmedas o residuos internos.
+
+Pasos:
+- apagar impresora,
+- retirar papel lentamente,
+- limpiar rodillos,
+- revisar bandeja.
+
+4. CARTUCHO NO DETECTADO
+
+Sucede por suciedad en contactos o cartucho mal insertado.
+
+Pasos:
+- retirar cartucho,
+- limpiar contactos metálicos,
+- reinstalar,
+- verificar compatibilidad.
+
+5. USB O DISPOSITIVO EXTERNO NO RECONOCIDO
+
+Las memorias USB, mouse o teclados pueden fallar por puertos dañados o drivers corruptos.
+
+Pasos:
+- cambiar de puerto,
+- probar otro cable,
+- reiniciar equipo,
+- actualizar controladores USB.

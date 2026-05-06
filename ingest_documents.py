@@ -44,10 +44,10 @@ def dividir_texto(texto, chunk_size=120, overlap=30):
 
     return chunks
 
-# =========================
+# =========================6
 # CARGAR TODOS LOS DOCUMENTOS
 # =========================
-carpeta = "base de conocimientos"
+carpeta = "knowledge_base"
 contador = 0
 
 for archivo in os.listdir(carpeta):

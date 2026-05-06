@@ -1,11 +1,12 @@
 import ollama
+import re
 from rag_engine import buscar_contexto
 
 def analista_soporte_chat():
 
-    print("==========================================")
-    print("   ANALISTA DE SOPORTE TÉCNICO CON RAG")
-    print("==========================================")
+    print("==============================================")
+    print("   ANALISTA DE SOPORTE TÉCNICO CON SISTEMA RAG")
+    print("==============================================")
     print("Escribe tu problema técnico.")
     print("Escribe 'salir' para terminar.\n")
 
@@ -17,33 +18,43 @@ def analista_soporte_chat():
             print("Asistente: Conversación finalizada.")
             break
 
-        # =========================
-        # RECUPERACIÓN RAG
-        # =========================
-        contexto_rag = buscar_contexto(problema_usuario)
+        # ======================================
+        # RECUPERAR CONTEXTO DESDE RAG
+        # ======================================
+        contexto_rag, evidencia = buscar_contexto(problema_usuario)
 
-        print("\n--- CHUNKS RECUPERADOS POR EL RAG ---")
-        print(contexto_rag)
-        print("-------------------------------------\n")
+        print("\n=========== EVIDENCIA DE RECUPERACIÓN RAG ===========")
+        print(evidencia)
+        print("=====================================================\n")
 
-        # =========================
-        # PROMPT AUMENTADO
-        # =========================
+        # ======================================
+        # PROMPT ENGINEERING + CONTEXTO RAG
+        # ======================================
         prompt = f"""
-Eres un Analista de Soporte Técnico especializado en diagnosticar
-problemas básicos de computadoras, software, internet y dispositivos.
+Eres un Analista Inteligente de Soporte Técnico especializado en:
 
-Debes responder basándote PRIORITARIAMENTE en la siguiente base de conocimientos recuperada:
+- computadoras
+- hardware
+- software
+- redes e internet
+- impresoras y periféricos
 
+Tu función es diagnosticar el problema técnico del usuario utilizando PRIORITARIAMENTE
+la siguiente base de conocimientos recuperada por el sistema RAG.
+
+No debes inventar información que no esté relacionada con el contexto técnico.
+Debes analizar la consulta y generar una respuesta estructurada.
+
+=========== BASE DE CONOCIMIENTOS RECUPERADA ===========
 {contexto_rag}
+========================================================
 
-Reglas:
-1. Analiza el problema del usuario.
-2. Identifica el problema técnico.
-3. Explica la posible causa.
-4. Proporciona una solución paso a paso.
-5. Responde únicamente en formato JSON.
-6. Si la pregunta no corresponde a soporte técnico, indícalo.
+INSTRUCCIONES:
+1. Detecta el problema técnico principal.
+2. Explica la causa más probable.
+3. Propón una solución paso a paso.
+4. Si la consulta no pertenece al dominio tecnológico, indícalo.
+5. Responde EXCLUSIVAMENTE en JSON válido.
 
 Formato obligatorio:
 
@@ -54,18 +65,30 @@ Formato obligatorio:
  "recomendacion_adicional": ""
 }}
 
-<<<PROBLEMA_DEL_USUARIO>>>
+CONSULTA DEL USUARIO:
 {problema_usuario}
-<<<FIN_PROBLEMA>>>
 """
 
         response = ollama.chat(
             model="gemma3",
-            messages=[{"role": "user", "content": prompt}]
+            messages=[
+                {"role": "user", "content": prompt}
+            ]
         )
 
+        respuesta_modelo = response["message"]["content"]
+
+        # ======================================
+        # LIMPIEZA DEL JSON
+        # ======================================
+        match = re.search(r'\{.*\}', respuesta_modelo, re.DOTALL)
+
         print("Asistente:")
-        print(response["message"]["content"])
+        if match:
+            print(match.group())
+        else:
+            print(respuesta_modelo)
+
         print()
 
 analista_soporte_chat()

@@ -1,0 +1,52 @@
+MANTENIMIENTO PREVENTIVO Y FALLAS DE SOFTWARE
+
+1. PROGRAMA NO RESPONDE
+
+Cuando una aplicación deja de responder puede deberse a archivos corruptos, falta de memoria o conflictos de compatibilidad.
+
+Pasos:
+- forzar cierre con Administrador de tareas,
+- reiniciar programa,
+- reiniciar sistema,
+- ejecutar como administrador,
+- reinstalar aplicación.
+
+2. SOFTWARE NO ABRE
+
+Puede deberse a instalación incompleta, permisos insuficientes o dependencias faltantes.
+
+Pasos:
+- revisar mensaje de error,
+- ejecutar modo compatibilidad,
+- reinstalar software,
+- actualizar bibliotecas del sistema.
+
+3. POSIBLE INFECCIÓN DE VIRUS
+
+Los virus provocan lentitud, anuncios emergentes, procesos desconocidos y consumo anormal.
+
+Pasos:
+- desconectar internet,
+- ejecutar análisis antivirus,
+- eliminar archivos sospechosos,
+- limpiar temporales,
+- actualizar sistema.
+
+4. EXCESO DE ARCHIVOS TEMPORALES
+
+Los temporales consumen almacenamiento y reducen velocidad.
+
+Pasos:
+- abrir %temp%,
+- eliminar contenido,
+- vaciar caché del navegador,
+- ejecutar liberador de espacio.
+
+5. ERRORES DE COMPATIBILIDAD
+
+Algunos programas antiguos no funcionan en versiones nuevas de Windows.
+
+Pasos:
+- ejecutar modo compatibilidad,
+- instalar redistribuibles,
+- actualizar versión del software.

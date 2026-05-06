@@ -1,0 +1,58 @@
+DIAGNÓSTICO Y SOLUCIÓN DE PROBLEMAS DE REDES E INTERNET
+
+1. CONECTADO A WIFI PERO SIN ACCESO A INTERNET
+
+Este problema ocurre cuando el adaptador inalámbrico establece conexión con el router pero no logra salida hacia internet. Las causas frecuentes son DNS incorrecto, conflicto de IP, router saturado o fallo temporal del proveedor.
+
+Pasos de solución:
+- Reiniciar router y modem durante 30 segundos.
+- Desconectar y volver a conectar la red.
+- Olvidar la red WiFi y registrarla nuevamente.
+- Abrir consola y ejecutar ipconfig /release.
+- Ejecutar ipconfig /renew.
+- Ejecutar ipconfig /flushdns.
+- Configurar DNS automáticos o DNS públicos.
+- Ejecutar el solucionador de red de Windows.
+
+2. INTERNET DEMASIADO LENTO
+
+La lentitud puede presentarse por saturación de dispositivos conectados, interferencias físicas, descargas en segundo plano o limitaciones del proveedor de internet.
+
+Pasos:
+- Reiniciar router.
+- Verificar velocidad con test de internet.
+- Desconectar otros dispositivos.
+- Acercar el equipo al punto de acceso.
+- Verificar si hay actualizaciones o descargas activas.
+- Cambiar canal WiFi si existe interferencia.
+
+3. ADAPTADOR DE RED NO DETECTADO
+
+En algunos casos Windows no reconoce el adaptador Ethernet o WiFi por fallas de drivers o por deshabilitación accidental.
+
+Pasos:
+- Abrir Administrador de dispositivos.
+- Buscar adaptadores de red.
+- Habilitar el dispositivo.
+- Actualizar o reinstalar controlador.
+- Reiniciar el sistema.
+
+4. CONFLICTOS DE DIRECCIÓN IP
+
+Cuando dos equipos reciben direcciones similares o hay mala asignación DHCP, la red presenta desconexiones.
+
+Pasos:
+- Renovar IP.
+- Reiniciar router.
+- Configurar DHCP automático.
+- Revisar propiedades TCP/IP.
+
+5. PÉRDIDA INTERMITENTE DE SEÑAL
+
+Puede deberse a distancia, paredes, interferencia electromagnética o router defectuoso.
+
+Pasos:
+- mover router a zona central,
+- evitar obstáculos,
+- reiniciar antena,
+- actualizar firmware.
