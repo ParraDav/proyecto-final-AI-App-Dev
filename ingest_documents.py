@@ -31,7 +31,7 @@ def leer_pdf(ruta):
 # =========================
 # CHUNKING
 # =========================
-def dividir_texto(texto, chunk_size=120, overlap=30):
+def dividir_texto(texto, chunk_size=220, overlap=40):
     palabras = texto.split()
     chunks = []
 
